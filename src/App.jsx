@@ -32,7 +32,7 @@ const App = () => {
         {data && (
           <>
             <h1>City name:{data.name} </h1>
-            <h1>Temp:{data.main.temp}℃</h1>
+            <h1>Temp:{data.main.temp}K</h1>
             <h1>Description:{data.weather[0].description}</h1>
             <h2>
               position: lon_{Math.round(data.coord.lon)},lat_
